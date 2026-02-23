@@ -1,4 +1,4 @@
--- 1. 공통 코드 그룹
+-- 1. 공통 코드 그룹https://github.com/leegxkwaki/kinetics-docs/tree/main/docs
 CREATE TABLE code_grp (
     code_grp_id VARCHAR(20) PRIMARY KEY,
     grp_nm VARCHAR(50) NOT NULL,
