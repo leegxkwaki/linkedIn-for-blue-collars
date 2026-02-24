@@ -1,7 +1,19 @@
-# 시니어 개발자 코드 리뷰
+# 0224 코드 리뷰
 
 > Blue-Collar LinkedIn (KineticsGuild) 프론트엔드 코드 리뷰  
 > 가독성, 유지보수성, 클린 코드 원칙 관점
+
+---
+
+## 잘된 점
+
+| 항목 | 설명 |
+|------|------|
+| App Router 사용 | Next.js 14+ App Router 구조를 잘 따름 |
+| 컴포넌트 재사용 | `AuthCard`로 로그인/회원가입 레이아웃 공통화 |
+| 접근성 | `label` + `htmlFor`, `aria-label`, `required` 등 기본 접근성 고려 |
+| 일관된 스타일 | zinc + amber 조합으로 통일된 다크 테마 |
+| 타입 정의 | `AuthCardFooterLink`, `AuthCardProps` 등 인터페이스 정의 |
 
 ---
 
